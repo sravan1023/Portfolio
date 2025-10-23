@@ -162,9 +162,14 @@
                     </div>
                 </div>
                 <div class="about-image">
-                    <div class="image-placeholder">
+                    <!-- Replace 'profile.jpg' with your actual image file -->
+                    <img src="assets/images/profile.jpg" alt="Sravan's Profile Picture" class="profile-image" 
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    
+                    <!-- Fallback placeholder (shown if image fails to load) -->
+                    <div class="image-placeholder" style="display: none;">
                         <i class="fas fa-user-circle"></i>
-                        <p>Your Photo Here</p>
+                        <p>Add Your Photo</p>
                     </div>
                 </div>
             </div>
